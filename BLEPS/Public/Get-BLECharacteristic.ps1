@@ -1,5 +1,5 @@
 function Get-BLECharacteristic {
-    [OutputType([Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristics])]
+    [OutputType([Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristic])]
     [CmdletBinding()]
     param (
         # A pre-existing BluetoothLEDevice object
