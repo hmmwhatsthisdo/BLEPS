@@ -1,4 +1,5 @@
 function Read-BLECharacteristic {
+    [Alias("Get-BLECharacteristicData")]
     [CmdletBinding()]
     param (
         # The characteristic to read from.
